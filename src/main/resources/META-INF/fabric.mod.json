@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "flightpotion",
+  "version": "1.0.0",
+  "name": "Flight Potion Mod",
+  "description": "A mod that adds a Potion of Flight to Minecraft.",
+  "authors": [
+    "Your Name"
+  ],
+  "contact": {
+    "homepage": "https://example.com"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.flightpotion.FlightPotionMod"
+    ]
+  },
+  "depends": {
+    "fabric-api": "*",
+    "minecraft": "1.21.1"
+  }
+}
